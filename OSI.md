@@ -3,7 +3,7 @@
 |作用|通过什么介质数据传输|二层编址(MAC)数据如何在线缆上传输|定义三层的IP编址|定义传输数据的协议端口号，以及流控和差错校验(端到端通信)|建立、管理、终止会话|数据的表示、安全、压缩|实现应用进程之间的信息交换|
 |主要设备|网卡,网线,集线器,中继器,调制解调器|交换机,网卡,网桥|路由器|4|3|2|1|
 |单位|比特流bit|数据桢frame|数据包packet(分组)|数据段或报文|报文|报文|报文|
-|协议|7|6|ICMP IGMP IP|TCP UDP,数据包一旦离开网卡即进入网络传输层|FTP文件传输协议,NFS网络文件服务协议,SMTP电子邮件协议,SNMP网络管理协议,telnet远程登录协议|JPEG、ASCll、EBCDIC、加密格式等|HTTP FTP TFTP SMTP SNMP DNS TELNET HTTPS POP3 DHCP|
+|协议|IEEE802.3、IEEE802.4、IEEE802.5|6|ICMP IGMP IP|TCP UDP,数据包一旦离开网卡即进入网络传输层|FTP文件传输协议,NFS网络文件服务协议,SMTP电子邮件协议,SNMP网络管理协议,telnet远程登录协议|JPEG、ASCll、EBCDIC、加密格式等|HTTP FTP TFTP SMTP SNMP DNS TELNET HTTPS POP3 DHCP|
 * 由国际标准化组织ISO于1984年提出
 * TCP/IP协议由SOI提出
 * 下面4层由操作系统完成
